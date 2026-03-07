@@ -1,0 +1,45 @@
+{
+	"songs": [
+		[
+			"Joyful",
+			"face",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"Flooded",
+			"face",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"Rainstorm",
+			"face",
+			[
+				146,
+				113,
+				253
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"difficulties": "Normal",
+	"weekCharacters": [
+		"foxy",
+		"bf",
+		"gf"
+	],
+	"storyName": "Sly Fox",
+	"weekName": "Foxy",
+	"hideStoryMode": false,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}
