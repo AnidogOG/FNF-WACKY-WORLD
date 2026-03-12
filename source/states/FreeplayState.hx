@@ -409,6 +409,8 @@ class FreeplayState extends MusicBeatState
 			var songLowercase:String = Paths.formatToSongPath(songs[curSelected].songName);
 			var poop:String = Highscore.formatSong(songLowercase, curDifficulty);
 
+			FlxG.sound.play(Paths.sound('confirmMenu'), 0.7);
+
 			try
 			{
 				Song.loadFromJson(poop, songLowercase);

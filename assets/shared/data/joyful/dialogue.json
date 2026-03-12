@@ -1,0 +1,132 @@
+{
+	"dialogue": [
+		{
+			"expression": "excited",
+			"text": "beeep! dap dobee bop dabeebo",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "talk",
+			"text": "Yeah, I agree",
+			"boxState": "normal",
+			"portrait": "gf",
+			"speed": 0.05,
+			"sound": ""
+		},
+		{
+			"expression": "talk",
+			"text": "This is a pretty nice place",
+			"boxState": "normal",
+			"portrait": "gf",
+			"speed": 0.05,
+			"sound": ""
+		},
+		{
+			"expression": "talk",
+			"text": "Oh hey! you guys finally-",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "foxy"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "foxy",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "Uhhhh......"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "foxy",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "What are you guys doing here?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Beep daboo duh ehoh"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "bap depuh ough ahbah"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "foxy",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "... "
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "Boyfriend, she doesn't understand beepage"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "Boop?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Sorry about that"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "My boyfriend just wanted to know if you're good at singing"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "foxy",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "Oh..."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "foxy",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Well, I guess a few songs could help pass some time"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "excited",
+			"text": "Bap Boobee!"
+		}
+	]
+}

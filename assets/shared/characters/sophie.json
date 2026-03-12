@@ -1,0 +1,55 @@
+{
+	"animations": [
+		{
+			"offsets": [0, 0],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Idle"
+		},
+		{
+			"offsets": [24, 0],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Left"
+		},
+		{
+			"offsets": [18, -3],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Down"
+		},
+		{
+			"offsets": [-9, 21],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Up"
+		},
+		{
+			"offsets": [-4, 0],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Right"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/Sophie",
+	"position": [40, 130],
+	"healthicon": "sophie",
+	"flip_x": false,
+	"healthbar_colors": [255, 247, 198],
+	"camera_position": [10, 10],
+	"sing_duration": 4,
+	"scale": 0.95,
+	"_editor_isPlayer": false
+}

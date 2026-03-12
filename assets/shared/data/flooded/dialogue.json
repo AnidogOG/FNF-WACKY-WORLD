@@ -1,0 +1,60 @@
+{
+	"dialogue": [
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "foxy",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "Oh crap"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "Beepa doo?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "foxy",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "it looks like it's about to rain soon"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "foxy",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "It's also getting kind of dark too..."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "Hey don't worry I'm sure we'll be fine"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Lets just keep going for now and see what happens"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "foxy",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "Ok.."
+		}
+	]
+}

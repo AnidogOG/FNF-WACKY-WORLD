@@ -1,0 +1,68 @@
+{
+	"dialogue": [
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "Shit you were right"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "The weather is really bad today..."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "foxy",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "I'm going to be honest..."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "foxy",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "The rain feels pretty nice"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "foxy",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "And it's not like it's a thunderstorm or anything"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "foxy",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "So we'll be fine"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "excited",
+			"text": "Beep daboo papah"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "foxy",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Yeah! he gets it!"
+		}
+	]
+}

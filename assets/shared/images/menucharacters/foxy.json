@@ -1,0 +1,9 @@
+{
+	"idle_anim": "M Foxy Idle",
+	"image": "Menu_Foxy",
+	"position": [30, 162],
+	"flipX": false,
+	"antialiasing": true,
+	"scale": 0.55,
+	"confirm_anim": "M Foxy Idle"
+}
