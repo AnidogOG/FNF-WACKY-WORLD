@@ -2,7 +2,7 @@
 	"animations": [
 		{
 			"loop": false,
-			"offsets": [8, 6],
+			"offsets": [0, 0],
 			"anim": "idle",
 			"fps": 24,
 			"name": "Idle",
@@ -10,7 +10,7 @@
 		},
 		{
 			"loop": false,
-			"offsets": [33, 7],
+			"offsets": [3, -1],
 			"anim": "singLEFT",
 			"fps": 24,
 			"name": "Left",
@@ -18,7 +18,7 @@
 		},
 		{
 			"loop": false,
-			"offsets": [27, 4],
+			"offsets": [-13, -3],
 			"anim": "singDOWN",
 			"fps": 24,
 			"name": "Down",
@@ -26,7 +26,7 @@
 		},
 		{
 			"loop": false,
-			"offsets": [-2, 29],
+			"offsets": [-22, 3],
 			"anim": "singUP",
 			"fps": 24,
 			"name": "Up",
@@ -34,7 +34,7 @@
 		},
 		{
 			"loop": false,
-			"offsets": [4, 7],
+			"offsets": [-22, 0],
 			"anim": "singRIGHT",
 			"fps": 24,
 			"name": "Right",
@@ -43,13 +43,13 @@
 	],
 	"vocals_file": "",
 	"no_antialiasing": false,
-	"image": "characters/Sophie",
-	"position": [50, 120],
-	"healthicon": "sophie",
-	"flip_x": false,
-	"healthbar_colors": [255, 247, 198],
-	"camera_position": [10, 10],
+	"image": "characters/Bunfriend",
+	"position": [40, 200],
+	"healthicon": "bunfriend",
+	"flip_x": true,
+	"healthbar_colors": [102, 51, 153],
+	"camera_position": [100, 40],
 	"sing_duration": 4,
-	"scale": 1,
-	"_editor_isPlayer": false
+	"scale": 0.9,
+	"_editor_isPlayer": true
 }

@@ -1,0 +1,63 @@
+{
+	"songs": [
+		[
+			"Upon The Stars",
+			"kattie",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"Blindsided",
+			"sophie",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"Enchanted",
+			"creature",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"Gladiator",
+			"box",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"Harmony",
+			"luna",
+			[
+				146,
+				113,
+				253
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"difficulties": "Normal",
+	"weekCharacters": [
+		"bf",
+		"bf",
+		"gf"
+	],
+	"storyName": "Your New Week",
+	"weekName": "Custom Week",
+	"hideStoryMode": true,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}

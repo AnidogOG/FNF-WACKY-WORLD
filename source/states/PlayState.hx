@@ -382,6 +382,9 @@ class PlayState extends MusicBeatState
 			case 'grassland': new Grassland();
 			case 'grasslandDark': new GrasslandDark();
 			case 'grasslandRain': new GrasslandRain();
+			case 'space': new Space();
+			case 'forest': new Forest();
+			case 'road': new Road();
 		}
 		if(isPixelStage) introSoundsSuffix = '-pixel';
 
