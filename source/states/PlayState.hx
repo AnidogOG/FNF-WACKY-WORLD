@@ -3561,7 +3561,7 @@ class PlayState extends MusicBeatState
 			}
 			else // any FC achievements, name should be "weekFileName_nomiss", e.g: "week3_nomiss";
 			{
-				if(isStoryMode && campaignMisses + songMisses < 1 && Difficulty.getString().toUpperCase() == 'HARD'
+				if(isStoryMode && campaignMisses + songMisses < 1 && Difficulty.getString().toUpperCase() == 'NORMAL'
 					&& storyPlaylist.length <= 1 && !changedDifficulty && !usedPractice)
 					unlock = true;
 			}
