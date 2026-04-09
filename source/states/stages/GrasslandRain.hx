@@ -15,6 +15,8 @@ class GrasslandRain extends BaseStage
 
 	var scrollingSky:FlxTiledSprite;
 
+	var foxy:BGSprite = new BGSprite('night/FoxyStandby', -400, 100, 0.9, 0.9);
+
 	override function create()
 	{
 		var sky:BGSprite = new BGSprite('night/skyNight', -400, -200, 0.9, 0.9);
@@ -37,6 +39,10 @@ class GrasslandRain extends BaseStage
 		clouds.updateHitbox();
 		add(clouds);
 
+		foxy.setGraphicSize(Std.int(foxy.width * 0.5));
+		foxy.updateHitbox();
+		add(foxy);
+		foxy.visible = false;
 
 		if(ClientPrefs.data.shaders)
 			setupRainShader();
@@ -46,10 +52,8 @@ class GrasslandRain extends BaseStage
 	{
 		if(curBeat == 272)
 		{
-			var foxy:BGSprite = new BGSprite('night/FoxyStandby', -400, 100, 0.9, 0.9);
-			foxy.setGraphicSize(Std.int(foxy.width * 0.5));
-			foxy.updateHitbox();
-			add(foxy);
+
+			foxy.visible = true;
 
 			var whiteScreen:FlxSprite = new FlxSprite().makeGraphic(Std.int(FlxG.width * 5), Std.int(FlxG.height * 5), FlxColor.WHITE);
 			whiteScreen.scrollFactor.set();
@@ -57,7 +61,6 @@ class GrasslandRain extends BaseStage
 			whiteScreen.blend = ADD;
 			add(whiteScreen);
 			FlxTween.tween(whiteScreen, {alpha: 0}, 1, {
-				startDelay: 0.1,
 				ease: FlxEase.linear,
 				onComplete: function(twn:FlxTween)
 				{

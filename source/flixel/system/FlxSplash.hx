@@ -34,7 +34,7 @@ class FlxSplash extends FlxState
 	
 	var nextState:NextState;
 
-	var mettatron:FlxSprite;
+	var anidog:FlxSprite;
 	
 	public function new(nextState:NextState)
 	{
@@ -78,18 +78,19 @@ class FlxSplash extends FlxState
 		var dtf = new TextFormat(FlxAssets.FONT_DEFAULT, 16, 0xfd73ff);
 		dtf.align = TextFormatAlign.CENTER;
 		_text.defaultTextFormat = dtf;
-		_text.text = "Oh Yes~";
+		_text.text = "A funkin \n Anidog mod";
 		FlxG.stage.addChild(_text);
 
 		onResize(stageWidth, stageHeight);
 
-		mettatron = new FlxSprite(530, 150).loadGraphic(Paths.image('plab'));
-		add(mettatron);
+		anidog = new FlxSprite(150, -280).loadGraphic(Paths.image('AnidogPhoto'));
+		anidog.setGraphicSize(Std.int(anidog.width * 0.3));
+		add(anidog);
 
 		#if FLX_SOUND_SYSTEM
 		if (!muted)
 		{
-			FlxG.sound.play(Paths.sound('flixel/yeah'));
+			FlxG.sound.play(Paths.sound('flixel/Intro'));
 		}
 		#end
 	}
@@ -100,7 +101,7 @@ class FlxSplash extends FlxState
 		_gfx = null;
 		_text = null;
 		_times = null;
-		mettatron = null;
+		anidog = null;
 		super.destroy();
 	}
 	
@@ -117,8 +118,8 @@ class FlxSplash extends FlxState
 		_sprite.y = (Height / 2) - 20 * FlxG.game.scaleY;
 
 		_text.width = Width / FlxG.game.scaleX;
-		_text.x = 0;
-		_text.y = _sprite.y + 80 * FlxG.game.scaleY;
+		_text.x = -620;
+		_text.y = _sprite.y + 100 * FlxG.game.scaleY;
 
 		_sprite.scaleX = _text.scaleX = FlxG.game.scaleX;
 		_sprite.scaleY = _text.scaleY = FlxG.game.scaleY;
@@ -126,7 +127,9 @@ class FlxSplash extends FlxState
 
 	function timerCallback(Timer:FlxTimer):Void
 	{
-		_text.text = "Oh Yes~";
+		_text.text = "A funkin \n Anidog mod";
+		_text.scaleX = 1.8;
+		_text.scaleY = 1.8;
 		_curPart++;
 
 		if (_curPart == 5)
@@ -134,7 +137,7 @@ class FlxSplash extends FlxState
 			// Make the logo a tad bit longer, so our users fully appreciate our hard work :D
 			FlxTween.tween(_sprite, {alpha: 0}, 3.0, {ease: FlxEase.quadOut, onComplete: (_)->complete()});
 			FlxTween.tween(_text, {alpha: 0}, 3.0, {ease: FlxEase.quadOut});
-			FlxTween.tween(mettatron, {alpha: 0}, 3.0, {ease: FlxEase.quadOut});
+			FlxTween.tween(anidog, {alpha: 0}, 3.0, {ease: FlxEase.quadOut});
 		}
 	}
 

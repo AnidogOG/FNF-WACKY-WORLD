@@ -1,60 +1,60 @@
 {
 	"dialogue": [
 		{
+			"expression": "confused",
+			"text": "Oh crap.",
+			"boxState": "normal",
 			"sound": "",
 			"speed": 0.05,
-			"portrait": "foxy",
-			"boxState": "normal",
-			"expression": "confused",
-			"text": "Oh crap"
+			"portrait": "foxy"
 		},
 		{
+			"expression": "confused",
+			"text": "Beepa doo?",
+			"boxState": "normal",
 			"sound": "",
 			"speed": 0.05,
-			"portrait": "bf",
-			"boxState": "normal",
-			"expression": "confused",
-			"text": "Beepa doo?"
+			"portrait": "bf"
 		},
 		{
+			"expression": "confused",
+			"text": "it looks like it's about to rain soon.",
+			"boxState": "normal",
 			"sound": "",
 			"speed": 0.05,
-			"portrait": "foxy",
-			"boxState": "normal",
-			"expression": "confused",
-			"text": "it looks like it's about to rain soon"
+			"portrait": "foxy"
 		},
 		{
+			"expression": "confused",
+			"text": "It's also getting kind of dark too...",
+			"boxState": "normal",
 			"sound": "",
 			"speed": 0.05,
-			"portrait": "foxy",
-			"boxState": "normal",
-			"expression": "confused",
-			"text": "It's also getting kind of dark too..."
+			"portrait": "foxy"
 		},
 		{
+			"expression": "confused",
+			"text": "Hey don't worry I'm sure we'll be fine.",
+			"boxState": "normal",
 			"sound": "",
 			"speed": 0.05,
-			"portrait": "gf",
-			"boxState": "normal",
-			"expression": "confused",
-			"text": "Hey don't worry I'm sure we'll be fine"
+			"portrait": "gf"
 		},
 		{
-			"sound": "",
-			"speed": 0.05,
-			"portrait": "gf",
-			"boxState": "normal",
 			"expression": "talk",
-			"text": "Lets just keep going for now and see what happens"
-		},
-		{
+			"text": "Lets just keep going for now and see what happens!",
+			"boxState": "normal",
 			"sound": "",
 			"speed": 0.05,
-			"portrait": "foxy",
-			"boxState": "normal",
+			"portrait": "gf"
+		},
+		{
 			"expression": "confused",
-			"text": "Ok.."
+			"text": "Ok..",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "foxy"
 		}
 	]
 }

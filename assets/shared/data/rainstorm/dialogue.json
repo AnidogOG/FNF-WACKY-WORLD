@@ -1,68 +1,68 @@
 {
 	"dialogue": [
 		{
-			"sound": "",
-			"speed": 0.05,
-			"portrait": "gf",
-			"boxState": "normal",
 			"expression": "confused",
-			"text": "Shit you were right"
-		},
-		{
+			"text": "Shit you were right.",
+			"boxState": "normal",
 			"sound": "",
 			"speed": 0.05,
-			"portrait": "gf",
-			"boxState": "normal",
+			"portrait": "gf"
+		},
+		{
 			"expression": "confused",
-			"text": "The weather is really bad today..."
-		},
-		{
+			"text": "The weather is really bad today...",
+			"boxState": "normal",
 			"sound": "",
 			"speed": 0.05,
-			"portrait": "foxy",
-			"boxState": "normal",
+			"portrait": "gf"
+		},
+		{
 			"expression": "confused",
-			"text": "I'm going to be honest..."
-		},
-		{
+			"text": "I'm going to be honest...",
+			"boxState": "normal",
 			"sound": "",
 			"speed": 0.05,
-			"portrait": "foxy",
-			"boxState": "normal",
+			"portrait": "foxy"
+		},
+		{
 			"expression": "talk",
-			"text": "The rain feels pretty nice"
-		},
-		{
+			"text": "The rain is actually pretty nice.",
+			"boxState": "normal",
 			"sound": "",
 			"speed": 0.05,
-			"portrait": "foxy",
-			"boxState": "normal",
+			"portrait": "foxy"
+		},
+		{
 			"expression": "talk",
-			"text": "And it's not like it's a thunderstorm or anything"
-		},
-		{
+			"text": "And it's not like it's a thunderstorm or anything.",
+			"boxState": "normal",
 			"sound": "",
 			"speed": 0.05,
-			"portrait": "foxy",
-			"boxState": "normal",
+			"portrait": "foxy"
+		},
+		{
 			"expression": "talk",
-			"text": "So we'll be fine"
-		},
-		{
+			"text": "So we'll be fine out here.",
+			"boxState": "normal",
 			"sound": "",
 			"speed": 0.05,
-			"portrait": "bf",
-			"boxState": "normal",
+			"portrait": "foxy"
+		},
+		{
 			"expression": "excited",
-			"text": "Beep daboo papah"
-		},
-		{
+			"text": "Beep daboo papah!",
+			"boxState": "normal",
 			"sound": "",
 			"speed": 0.05,
-			"portrait": "foxy",
-			"boxState": "normal",
+			"portrait": "bf"
+		},
+		{
 			"expression": "talk",
-			"text": "Yeah! he gets it!"
+			"text": "Yeah! he gets it!",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "foxy"
 		}
 	]
 }

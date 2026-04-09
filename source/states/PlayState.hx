@@ -385,6 +385,8 @@ class PlayState extends MusicBeatState
 			case 'space': new Space();
 			case 'forest': new Forest();
 			case 'road': new Road();
+			case 'boxingRing': new BoxingRing();
+			case 'field': new Field();
 		}
 		if(isPixelStage) introSoundsSuffix = '-pixel';
 
