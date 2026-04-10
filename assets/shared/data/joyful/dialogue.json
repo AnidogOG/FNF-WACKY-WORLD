@@ -74,7 +74,7 @@
 		},
 		{
 			"expression": "confused",
-			"text": "Boyfriend, she doesn't understand what you're saying",
+			"text": "Boyfriend, she doesn't understand what you're saying.",
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.05,
@@ -94,7 +94,7 @@
 			"portrait": "gf",
 			"boxState": "normal",
 			"expression": "talk",
-			"text": "You know what, just forget it."
+			"text": "You know what, forget it."
 		},
 		{
 			"expression": "confused",
@@ -114,7 +114,7 @@
 		},
 		{
 			"expression": "confused",
-			"text": "Oh...",
+			"text": "Oh, well...",
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.05,
@@ -126,11 +126,11 @@
 			"portrait": "foxy",
 			"boxState": "normal",
 			"expression": "confused",
-			"text": "I haven't really sang in a long while."
+			"text": "I haven't really sang in a long time."
 		},
 		{
 			"expression": "talk",
-			"text": "But I guess I could try my best and get in a couple songs",
+			"text": "But I guess I could try to get in a few songs.",
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.05,

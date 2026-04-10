@@ -18,7 +18,7 @@
 		},
 		{
 			"expression": "confused",
-			"text": "it looks like it's about to rain soon.",
+			"text": "It's starting to rain.",
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.05,
@@ -26,7 +26,7 @@
 		},
 		{
 			"expression": "confused",
-			"text": "It's also getting kind of dark too...",
+			"text": "It's also getting a bit dark out here...",
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.05,
@@ -34,7 +34,7 @@
 		},
 		{
 			"expression": "confused",
-			"text": "Hey don't worry I'm sure we'll be fine.",
+			"text": "Hey, don't worry, we'll be fine.",
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.05,
@@ -42,7 +42,7 @@
 		},
 		{
 			"expression": "talk",
-			"text": "Lets just keep going for now and see what happens!",
+			"text": "Lets just keep going for now and see what happens.",
 			"boxState": "normal",
 			"sound": "",
 			"speed": 0.05,
