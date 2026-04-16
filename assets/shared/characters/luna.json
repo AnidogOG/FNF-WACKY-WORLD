@@ -9,7 +9,7 @@
 			"name": "Idle"
 		},
 		{
-			"offsets": [8, -2],
+			"offsets": [18, -2],
 			"loop": false,
 			"fps": 24,
 			"anim": "singLEFT",
@@ -17,7 +17,7 @@
 			"name": "Left"
 		},
 		{
-			"offsets": [-2, -5],
+			"offsets": [-9, -5],
 			"loop": false,
 			"fps": 24,
 			"anim": "singDOWN",
@@ -25,7 +25,7 @@
 			"name": "Down"
 		},
 		{
-			"offsets": [6, 17],
+			"offsets": [-9, 17],
 			"loop": false,
 			"fps": 24,
 			"anim": "singUP",
@@ -33,7 +33,7 @@
 			"name": "Up"
 		},
 		{
-			"offsets": [-4, 7],
+			"offsets": [-13, 7],
 			"loop": false,
 			"fps": 24,
 			"anim": "singRIGHT",
